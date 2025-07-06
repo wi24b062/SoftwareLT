@@ -24,6 +24,14 @@
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- JUnit 4 für bestehende Tests -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
