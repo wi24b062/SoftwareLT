@@ -78,4 +78,13 @@ public class TicTacToe
         TicTacToe game = new TicTacToe();
         game.start();
     }
+
+    public Player getCurrentPlayer() {
+        return currentPlayer;
+    }
+
+    public boolean isValidInput(int row, int col) {
+        return row >= 0 && row < 3 && col >= 0 && col < 3;
+    }
+
 }
