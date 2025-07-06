@@ -1,5 +1,3 @@
-package test;
-
 import org.example.TicTacToe;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
