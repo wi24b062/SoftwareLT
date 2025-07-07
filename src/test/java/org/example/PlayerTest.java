@@ -1,3 +1,5 @@
+package org.example;
+
 import org.example.Player;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
